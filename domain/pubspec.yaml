@@ -1,0 +1,27 @@
+name: domain
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.16.0-134.1.beta <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^3.0.4
+  kt_dart: ^0.9.1
+  json_annotation: ^4.0.1
+  dartz: ^0.10.0-nullsafety.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.5.3
+  json_serializable: ^4.1.3
+  freezed: ^0.14.2
+  build_runner: 2.0.4
+  flutter_lints: ^1.0.0
+
+flutter:
